@@ -1,0 +1,22 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    The restriction: the class should have the name Main
+    public class Main {
+
+        The start point of your program
+        public static void main(String[] args) {
+            System.out.println("It compiles!"); It prints "It compiles!"
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2161#comment
+status: Failed
+feedback:
+  message: "Failed. Runtime error\n\nError:\nException in thread \"main\" java.util.NoSuchElementException:\
+    \ No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\
+    \tat Main.main(Main.java:9)\n"
+  time: Tue, 10 Nov 2020 15:35:20 UTC
+record: -1
